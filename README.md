@@ -60,14 +60,10 @@ The aircraft was designed with a focus on aerodynamic efficiency, stability, and
 
 📂 SAE-ISS-DDC-2025
 
- ├── 📁 CAD_Models       # 3D models and technical drawings
+ ├ python files
 
- ├── 📁 Simulations      # Stability and aerodynamic analysis results
-
- ├── 📁 Fabrication      # Material lists and build process documentation
-
- ├── 📁 Electronics      # Circuit schematics and component datasheets
-
+ ├ Data files
+  
  ├── 📄 README.md        # Project documentation
 
 ## Status
