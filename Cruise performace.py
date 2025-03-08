@@ -19,7 +19,7 @@ real_positive_roots_list = []
 # Loop over pa values
 for pa in np.arange(700, 0, -10):
     # Define the polynomial coefficients
-    coefficients = [(s * Cd0 * (rho ** 2) * 0.25), 0, 0, (-rho * s * pa * 0.5), (k * (w ** 2))]
+    coefficients = [((s**2) * Cd0 * (rho ** 2) * 0.25), 0, 0, (-rho * s * pa * 0.5), (k * (w ** 2))]
 
     # Find the roots of the polynomial
     roots = np.roots(coefficients)
